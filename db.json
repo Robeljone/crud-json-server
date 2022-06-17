@@ -1,0 +1,70 @@
+{
+  "productlis": [
+    {
+      "name": "Bannan",
+      "cata": "Fruit",
+      "date": "2022-12-31",
+      "fresh": "Fresh",
+      "id": 1
+    },
+    {
+      "name": "robelict94@gmail.com",
+      "cata": "Juice",
+      "date": "2022-12-31",
+      "fresh": "Fresh",
+      "id": 2
+    },
+    {
+      "name": "Bannan",
+      "cata": "Fruit",
+      "date": "2022-12-31",
+      "fresh": "Fresh",
+      "id": 3
+    },
+    {
+      "name": "fgfdg",
+      "cata": "Juice",
+      "date": "2022-06-16",
+      "fresh": "Fresh",
+      "id": 4
+    },
+    {
+      "name": "Bannana",
+      "cata": "Fruit",
+      "date": "2022-12-31",
+      "fresh": "Fresh",
+      "id": 5
+    },
+    {
+      "name": "Bananna",
+      "cata": "Fruit",
+      "date": "2022-12-31",
+      "fresh": "Fresh",
+      "id": 6
+    },
+    {
+      "name": "Bannan",
+      "cata": "Fruit",
+      "date": "2022-12-31",
+      "fresh": "Fresh",
+      "id": 7
+    },
+    {
+      "name": "Name ",
+      "cata": "Fruit",
+      "date": "2022-06-17",
+      "fresh": "Fresh",
+      "id": 8
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
