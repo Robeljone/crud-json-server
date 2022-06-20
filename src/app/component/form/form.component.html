@@ -1,0 +1,37 @@
+<h3 mat-dialog-title>Add New Product</h3>
+<div>
+  <mat-dialog-content>
+    <form [formGroup]=" productfrm">
+      <mat-form-field class="full-width">
+        <mat-label>Product Name</mat-label>
+        <input formControlName="name" matInput placeholder="Name" />
+      </mat-form-field>
+      <mat-form-field class="full-width">
+        <mat-label>Catagory</mat-label>
+        <mat-select formControlName="cata">
+          <mat-option  *ngFor="let data of catagory" [value]="data">
+            {{ data }}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+      <mat-form-field class="full-width">
+        <mat-label>Date</mat-label>
+        <input formControlName="date" type="date" matInput />
+      </mat-form-field>
+      <mat-form-field class="full-width">
+        <mat-label>Freshness</mat-label>
+        <mat-select formControlName="fresh">
+          <mat-option  *ngFor="let fres of freshness" [value]="fres">
+            {{ fres }}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+    </form>
+  </mat-dialog-content>
+</div>
+<div>
+    <mat-dialog-actions>
+        <button mat-raised-button color="warn" mat-dialog-close="">Close</button>
+        <button mat-raised-button color="primary" type="button" (click)="savepro()">Register</button>
+    </mat-dialog-actions>
+</div>
